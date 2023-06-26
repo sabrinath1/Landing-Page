@@ -3,7 +3,7 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div
-    class="w-full navbar bg-primary justify-between position: fixed z-50"
+    class="w-full navbar bg-primary justify-between fixed z-50"
     id="header-top"
   >
     <div class="flex-none lg:hidden">

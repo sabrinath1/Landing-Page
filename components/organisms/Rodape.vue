@@ -32,12 +32,12 @@ const myList = ref([
       {
         label: "sabrina@advocacia.com.br",
         href: "",
-        icon: "fa-envelope",
+        icon: "",
       },
       {
         label: "Av. Dr. Afonso Vergueiro, 5000- Centro, Sorocaba - SP",
         href: "",
-        icon: "fa-map-location-dot",
+        icon: "",
       },
     ],
   },
@@ -52,7 +52,7 @@ const myList = ref([
       {
         label: "09:00 ás 18:00 horas",
         href: "",
-        icon: "fa-clock",
+        icon: "",
       },
     ],
   },
@@ -89,7 +89,7 @@ const social = useSocialRedirect();
             :key="`title_${index}`"
           >
             <div class="flex flex-col">
-              <h3 class="text-xl font-bold tracking-wider text-white">
+              <h3 class="text-xl font-bold tracking-wider text-secondary">
                 {{ i.title }}
               </h3>
               <ul role="list" class="mt-4 space-y-2 text-lg">
@@ -103,7 +103,7 @@ const social = useSocialRedirect();
                       :to="subItem.href"
                       class="text-sm font-normal text-white hover:text-secondary flex-row"
                     >
-                      <font-awesome-icon class="text-lg" :icon="subItem.icon" />
+                      <!-- <font-awesome-icon class="text-lg" :icon="subItem.icon" /> -->
                       {{ subItem.label }}
                     </NuxtLink>
                   </div>
