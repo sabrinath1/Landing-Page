@@ -9,8 +9,23 @@ module.exports = {
     "./app.vue",  
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary": "#220f0f",
+        "secondary": "#ff914d",
+        "base-100": "#ffffff",
+        "info": "#2F67E9",
+        "success": "#165F55",
+        "warning": "#FBC846",
+        "error": "#E94974",
+        "accent": "#e94974"
+        
+        
+        
+      }
+    },
+    
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
