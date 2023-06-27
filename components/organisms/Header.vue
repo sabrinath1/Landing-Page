@@ -1,7 +1,7 @@
-<script></script>
+<script setup lang="ts"></script>
 <template>
   <div
-    class="w-full navbar bg-primary justify-between position: fixed h-24 z-50"
+    class="w-full navbar bg-primary justify-around position: fixed h-24 z-50 mr-14"
     id="header-top"
   >
     <div class="flex-none lg:hidden">
@@ -20,6 +20,7 @@
         </svg>
       </label>
     </div>
+
     <div class="flex px-2 mx-2 justify-end pt-3">
       <AtomsLogotipo></AtomsLogotipo>
     </div>
@@ -27,11 +28,10 @@
     <div class="flex-none hidden lg:block justify-center items-center">
       <MoleculesMenu></MoleculesMenu>
     </div>
+
     <div class="flex items-end space-x-4">
-      <div class="hidden sm:flex pl-10">
-        <AtomsButtonContact @click="() => social.redirect('whatsapp')">
-          Entrar em Contato</AtomsButtonContact
-        >
+      <div class="hidden sm:flex">
+        <AtomsButtonContact />
       </div>
       <!-- <button
         class="hidden sm:flex"

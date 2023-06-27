@@ -8,9 +8,11 @@
       <div class="mb-20 mt-20">
         <slot></slot>
       </div>
+      <OrganismsFooter />
     </div>
     <div class="drawer-side">
-      <label for="my-drawer-3" class="drawer-overlay"> </label>
+      <label for="my-drawer" class="drawer-overlay"> </label>
+      <MoleculesMenuMobile />
     </div>
   </div>
 </template>
