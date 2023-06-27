@@ -14,7 +14,7 @@ const social = useSocialRedirect();
     >
       <div class="flex-col pt-10">
         <h1
-          class="mb-5 text-6xl xl:text-7xl font-bold pt-24 lg:pt-20 text-star items-center lg:mt-10"
+          class="mb-5 text-6xl font-bold pt-24 lg:pt-20 text-star items-center lg:mt-10"
         >
           Advocacia e
         </h1>
