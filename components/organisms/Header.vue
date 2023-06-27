@@ -1,9 +1,7 @@
-<script setup lang="ts">
-const social = useSocialRedirect();
-</script>
+<script></script>
 <template>
   <div
-    class="w-full navbar bg-primary justify-between fixed z-50"
+    class="w-full navbar bg-primary justify-between position: fixed h-24 z-50"
     id="header-top"
   >
     <div class="flex-none lg:hidden">
@@ -22,25 +20,26 @@ const social = useSocialRedirect();
         </svg>
       </label>
     </div>
-    <div class="flex px-2 mx-2 justify-end">
-      <AtomsCompleteLogotipo></AtomsCompleteLogotipo>
+    <div class="flex px-2 mx-2 justify-end pt-3">
+      <AtomsLogotipo></AtomsLogotipo>
     </div>
+
     <div class="flex-none hidden lg:block justify-center items-center">
       <MoleculesMenu></MoleculesMenu>
     </div>
     <div class="flex items-end space-x-4">
-      <div class="hidden md:flex">
+      <div class="hidden sm:flex pl-10">
         <AtomsButtonContact @click="() => social.redirect('whatsapp')">
           Entrar em Contato</AtomsButtonContact
         >
       </div>
-      <button
+      <!-- <button
         class="hidden sm:flex"
         text
         style="font-size: 35px"
         @click="social.redirect('instagram')"
       >
-        <Icon name="mdi:instagram" class="text-white transition-all" />
+        <Icon name="mdi:instagram" class="text-secondary transition-all" />
       </button>
       <button
         class="hidden sm:flex"
@@ -48,11 +47,8 @@ const social = useSocialRedirect();
         style="font-size: 35px"
         @click="social.redirect('linkedin')"
       >
-        <Icon name="mdi:linkedin" class="text-white transition-all" />
-      </button>
-    </div>
-    <div class="drawer-side">
-      <label for="my-drawer-3" class="drawer-overlay"> </label>
+        <Icon name="mdi:linkedin" class="text-secondary transition-all" />
+      </button> -->
     </div>
   </div>
 </template>

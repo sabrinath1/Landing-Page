@@ -3,6 +3,4 @@ definePageMeta({
   layout: "default",
 });
 </script>
-<template>
-  <OrganismsBannerMain />
-</template>
+<template></template>

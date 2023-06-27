@@ -1,18 +1,74 @@
+<script setup lang="ts">
+import type { MenuOption } from "naive-ui";
+import { RouterLink } from "vue-router";
+
+const activeKey = ref(null);
+const menuOptions = ref<MenuOption[]>([
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: "",
+          },
+        },
+        { default: () => "Home" }
+      ),
+    key: "home",
+  },
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: "",
+          },
+        },
+        { default: () => "Sobre" }
+      ),
+    key: "about",
+  },
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: "",
+          },
+        },
+        { default: () => "Serviços" }
+      ),
+    key: "services",
+  },
+
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: "",
+          },
+        },
+        { default: () => "Contato" }
+      ),
+    key: "contact",
+  },
+]);
+const social = useSocialRedirect();
+</script>
+
 <template>
-  <div class="flex-col sm:flex w-64 justify-between">
-    <ul class="flex w-64 justify-between text-white font-sans text-base">
-      <li class="hover:text-secondary">
-        <NuxtLink to="#">Home</NuxtLink>
-      </li>
-      <li class="hover:text-secondary">
-        <NuxtLink to="#">Sobre</NuxtLink>
-      </li>
-      <li class="hover:text-secondary">
-        <NuxtLink to="#">Áreas</NuxtLink>
-      </li>
-      <li class="hover:text-secondary">
-        <NuxtLink to="#">Contato</NuxtLink>
-      </li>
-    </ul>
+  <div class="flex-none hidden lg:block justify-center items-center">
+    <n-menu
+      class="!font-semibold"
+      v-model:value="activeKey"
+      mode="horizontal"
+      :options="menuOptions"
+      :inverted="true"
+    />
   </div>
 </template>
