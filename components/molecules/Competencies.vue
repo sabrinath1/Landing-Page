@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center -mt-32 mb-10">
     <div
-      class="flex flex-wrap justify-center px-5 items-center bg-primary w-4/5 rounded-lg border-b-secondary"
+      class="flex flex-wrap justify-around px-5 items-center bg-primary xl:w-4/5 lg:w-auto w-80 lg:mx-2 rounded-lg border-b-secondary border-2 border-primary"
     >
       <AtomsCardCompetency
         img="/img/experiencia.png"
