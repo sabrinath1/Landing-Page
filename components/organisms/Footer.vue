@@ -92,7 +92,6 @@ const myList = ref([
                       :to="subItem.href"
                       class="text-sm font-normal text-white hover:text-secondary flex-row"
                     >
-                      <font-awesome-icon class="text-lg" :icon="subItem.icon" />
                       {{ subItem.label }}
                     </NuxtLink>
                   </div>
