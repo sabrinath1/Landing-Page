@@ -2,6 +2,7 @@
 const props = defineProps<{
   imgDesktop: string;
 }>();
+const social = useSocialRedirect();
 </script>
 <template>
   <div
@@ -20,11 +21,14 @@ const props = defineProps<{
         <h3 class="mb-5 text-6xl font-bold text-star">Assessoria Jurídica</h3>
       </div>
 
-      <!-- <div class="sm:py-10 invisible sm:visible">
-        <AtomsButtonContact @click="() => router.push('/about')">
-          
-        </AtomsButtonContact>
-      </div> -->
+      <div class="sm:py-10">
+        <button
+          class="btn bg-primary text-secondary border-primary"
+          @click="social.redirect('whatsapp')"
+        >
+          Agendar um horário
+        </button>
+      </div>
     </div>
   </div>
 </template>
