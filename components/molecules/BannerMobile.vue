@@ -8,16 +8,12 @@ const props = defineProps<{
     :style="{ backgroundImage: `url(${props.imgMobile})` }"
     class="hero mb-20 block md:hidden"
   >
-    <div
-      class="text-center sm:text-start text-neutral-content h-[30rem] w-full px-5 sm:px-20"
-    >
-      <div class="flex-col w-1/2 pt-14">
-        <h1 class="mb-5 text-4xl xl:text-7xl font-bold pt-28">
-          Sabrina Campos
-        </h1>
-        <!-- <h1 class="mb-5 text-3xl xl:text-5xl font-bold text-star flex-wrap">
+    <div class="text-center text-neutral-content h-[20rem] w-full px-5">
+      <div class="flex-col text-center ml-32">
+        <h1 class="mb-5 text-4xl font-bold pt-24 text-primary">
           Advocacia e Assessoria Jurídica
-        </h1> -->
+        </h1>
+        <!-- <h3 class="text-3xl font-bold">Assesosria Jurídica</h3> -->
       </div>
     </div>
   </div>
