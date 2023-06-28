@@ -20,7 +20,7 @@ const social = useSocialRedirect();
       <h1
         class="lg:mb-5 text-5xl font-bold pt-10 lg:pt-0 text-center lg:text-start items-center text-secondary"
       >
-        Sabrina Campos Advocacia
+        Bem-vindo ao escritório
       </h1>
       <p class="py-6 text-lg font-sans">
         Somos um escritório de advocacia comprometido em fornecer serviços
