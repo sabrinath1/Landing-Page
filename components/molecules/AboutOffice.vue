@@ -6,7 +6,7 @@ const social = useSocialRedirect();
     class="flex flex-col-reverse lg:flex-row lg:mb-10 justify-center w-auto xl:w-5/6"
   >
     <div
-      class="flex justify-center items-center xl:px-20 lg:py-10 lg:w-full justify-items-center"
+      class="flex justify-center items-center xl:px-20 lg:py-10 lg:w-full justify-items-center lg:justify-end"
     >
       <img
         src="/img/escritorio.jpg"

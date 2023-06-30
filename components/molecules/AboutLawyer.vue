@@ -1,17 +1,17 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="flex flex-col-reverse lg:flex-row lg:mb-10 justify-center w-auto xl:w-5/6 h-5/6 items-center"
+    class="flex flex-col-reverse lg:flex-row lg:mb-10 w-auto xl:w-4/6 h-5/6 items-center"
   >
     <div
       class="py-5 sm:pr-16 justify-center items-center lg:w-full lg:pl-10 self-center px-6 md:px-12 lg:px-0"
     >
       <h1
-        class="lg:mb-5 text-4xl font-bold pt-10 lg:pt-20 text-center lg:text-start text-secondary"
+        class="lg:mb-5 text-4xl font-bold pt-10 lg:pt-20 text-center lg:text-start text-primary"
       >
         Sabrina Campos
       </h1>
-      <p class="text-lg font-sans pt-6">
+      <p class="text-lg font-sans pt-6 text-white">
         Com minha formação acadêmica sólida e minha experiência prática me
         capacitaram a atuar em áreas como Direito Civil, Direito do Trabalho,
         Direito Penal, Direito Empresarial, Direito do Consumidor, entre outras.
@@ -23,10 +23,10 @@
         Dedico-me a buscar soluções criativas e estratégias inovadoras para
         atender às necessidades e objetivos dos meus clientes.
       </p>
-      <div class="flex justify-center sm:justify-center items-center"></div>
+      <div class="flex justify-center items-center"></div>
     </div>
     <div
-      class="flex mt-20 justify-center items-center xl:px-20 lg:py-10 lg:w-full justify-items-center"
+      class="flex mt-20 justify-center items-center xl:px-20 lg:py-10 lg:w-full justify-items-center xl:justify-start"
     >
       <img
         src="/img/foto-perfil.png"
