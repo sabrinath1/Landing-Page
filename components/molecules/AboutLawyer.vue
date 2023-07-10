@@ -1,16 +1,19 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="flex flex-col-reverse lg:flex-row lg:mb-10 w-auto xl:w-4/6 h-5/6 items-center"
+    class="flex flex-col-reverse lg:flex-row lg:mb-10 h-auto items-center bg-primary w-11/12 lg:mx-2 rounded-lg border-b-secondary border-2 border-primary -mt-14"
   >
     <div
       class="py-5 sm:pr-16 justify-center items-center lg:w-full lg:pl-10 self-center px-6 md:px-12 lg:px-0"
     >
       <h1
-        class="lg:mb-5 text-4xl font-bold pt-10 lg:pt-20 text-center lg:text-start text-primary"
+        class="lg:mb-5 text-4xl font-bold pt-10 lg:pt-20 text-center lg:text-start text-secondary"
       >
         Sabrina Campos
       </h1>
+      <h3 class="text-white text-xl text-center lg:text-start mt-2">
+        OAB/SP: 12345695
+      </h3>
       <p class="text-lg font-sans pt-6 text-white">
         Com minha formação acadêmica sólida e minha experiência prática me
         capacitaram a atuar em áreas como Direito Civil, Direito do Trabalho,

@@ -9,12 +9,12 @@ const myList = ref([
         icon: "",
       },
       {
-        label: "Serviços",
+        label: "Áreas de Atuação",
         href: "",
         icon: "",
       },
       {
-        label: "Contato",
+        label: "Fale Conosco",
         href: "",
         icon: "",
       },

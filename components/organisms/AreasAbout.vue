@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 bg-gradient-to-t from-secondary to-primary">
+  <div class="mt-10">
     <div class="flex justify-center">
       <MoleculesAreas />
     </div>

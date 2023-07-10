@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col justify-center xl:w-4/6">
+  <div
+    class="flex flex-col justify-center w-full xl:w-4/6 bg-gradient-to-t from-secondary to-primary pb-10"
+  >
     <h1
       class="mb-10 lg:mb-5 text-4xl font-bold pt-10 lg:pt-0 text-center items-center text-secondary lg:mt-10"
     >
