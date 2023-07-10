@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ["@/assets/css/main.css"],
-  modules: ["@huntersofbook/naive-ui-nuxt", "nuxt-icon"],
+  modules: ["@huntersofbook/naive-ui-nuxt", "nuxt-icon", "@formkit/nuxt"],
 
   postcss: {
     plugins: {

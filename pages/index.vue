@@ -8,4 +8,5 @@ definePageMeta({
   <MoleculesCompetencies />
   <MoleculesAboutOffice />
   <OrganismsAreasAbout />
+  <OrganismsContact />
 </template>
