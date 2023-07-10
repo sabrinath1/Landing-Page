@@ -10,7 +10,7 @@ showModal.value = true;
 myInput?.value?.node?.reset();
 </script>
 <template>
-  <div class="bg-secondary text-white py-10">
+  <div class="bg-secondary text-white py-10 w-96">
     <FormKit
       ref="myInput"
       type="form"
@@ -18,7 +18,7 @@ myInput?.value?.node?.reset();
       "
       submit-label="Enviar Mensagem"
       :submit-attrs="{
-        inputClass: '!bg-secondary',
+        inputClass: '!bg-primary',
       }"
     >
       <div>

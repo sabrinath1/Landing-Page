@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full justify-center my-10">
+  <div class="flex-col md:flex w-full justify-center my-10">
     <div class="w-1/2 h-auto">
       <MoleculesInfoContact />
     </div>

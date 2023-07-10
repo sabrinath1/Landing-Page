@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="flex flex-col-reverse lg:flex-row h-auto items-center bg-primary w-11/12 lg:mx-2 rounded-lg border-b-secondary border-2 border-primary -mt-14"
+    class="flex flex-col-reverse lg:flex-row h-auto items-center bg-primary w-11/12 xl:w-9/12 lg:mx-2 rounded-lg border-b-secondary border-2 border-primary -mt-14 justify-center"
   >
     <div
       class="py-5 sm:pr-16 justify-center items-center lg:w-full lg:pl-10 self-center px-6 md:px-12 lg:px-0"
@@ -29,7 +29,7 @@
       <div class="flex justify-center items-center"></div>
     </div>
     <div
-      class="flex justify-center mt-10 lg:mt-0 items-center xl:px-20 lg:py-10 lg:w-full justify-items-center xl:justify-start"
+      class="flex justify-center mt-10 lg:mt-0 items-center xl:px-20 lg:py-10 lg:w-full justify-items-center xl:justify-center"
     >
       <img
         src="/img/foto-perfil.png"
