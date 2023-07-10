@@ -1,6 +1,6 @@
 <template>
-  <div class="flex-col md:flex w-full justify-center my-10">
-    <div class="w-1/2 h-auto">
+  <div class="flex flex-col lg:flex-row w-full justify-center my-10">
+    <div class="h-auto w-96">
       <MoleculesInfoContact />
     </div>
     <div class="w-1/2 h-auto">
