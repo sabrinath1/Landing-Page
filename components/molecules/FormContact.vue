@@ -3,17 +3,21 @@ import { FormKit } from "@formkit/vue";
 
 const myInput = ref();
 
-const showModal = ref(true);
+const showModal = ref(false);
+async function send(data: any) {
+  // colocar funcao para enviar mensagem ao email do cliente.
 
-showModal.value = true;
+  showModal.value = true;
 
-myInput?.value?.node?.reset();
+  myInput?.value?.node?.reset();
+}
 </script>
 <template>
-  <div class="bg-secondary text-white py-10 w-96">
+  <div class="bg-secondary text-primary py-10 w-96 px-4 rounded-lg">
     <FormKit
       ref="myInput"
       type="form"
+      @submit="send"
       name="formContact
       "
       submit-label="Enviar Mensagem"
@@ -26,7 +30,7 @@ myInput?.value?.node?.reset();
           label="Nome"
           type="text"
           name="name"
-          label-class="text-white"
+          label-class="text-primary"
           placeholder="Nome Completo"
           validation="required"
         />
@@ -34,7 +38,7 @@ myInput?.value?.node?.reset();
       <div>
         <FormKit
           type="tel"
-          label-class="text-white"
+          label-class="text-primary"
           label="Celular"
           placeholder="(__)_____-____"
           mask="(99)99999-9999"
@@ -53,7 +57,7 @@ myInput?.value?.node?.reset();
       <div>
         <FormKit
           type="email"
-          label-class="text-white"
+          label-class="text-primary"
           label="E-mail"
           validation-visibility="live"
           placeholder="email@email.com"
@@ -66,7 +70,7 @@ myInput?.value?.node?.reset();
       </div>
       <FormKit
         type="textarea"
-        label-class="text-white"
+        label-class="text-primary"
         label="Mensagem"
         name="message"
         placeholder="Digite sua mensagem ..."
@@ -75,18 +79,18 @@ myInput?.value?.node?.reset();
         validation="required"
       />
     </FormKit>
-    <!-- <n-modal
+
+    <n-modal
       class="max-w-md"
       v-model:show="showModal"
       preset="card"
       title=" Obrigado por entrar em contato conosco!"
     >
-      <div class="text-secondary">
-        <br />Recebemos sua mensagem e entraremos em contato o mais breve
-        possível para discutir sua situação. <br />Seu caso é importante para
-        nós, e faremos o possível para fornecer a assistência jurídica
-        necessária para ajudá-lo a resolver seus problemas legais.
+      <div class="text-primary">
+        Recebemos sua mensagem e entraremos em contato o mais breve possível
+        para discutir sobre seu caso.
+        <br />Mas se preferir, fale conosco através do nosso WhatsApp!
       </div>
-    </n-modal> -->
+    </n-modal>
   </div>
 </template>

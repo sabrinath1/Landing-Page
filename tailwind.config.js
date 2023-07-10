@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+
+const FormKitVariants = require('@formkit/themes/tailwindcss')
+
 module.exports = {
   // corePlugins: {
   //   preflight: false,
@@ -9,7 +13,8 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue",  
+    "./app.vue",
+    "./tailwind-theme.js",
   ],
   theme: {
     extend: {
@@ -29,6 +34,6 @@ module.exports = {
     },
     
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),FormKitVariants],
 }
 

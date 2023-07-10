@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   css: ["@/assets/css/main.css"],
   modules: ["@huntersofbook/naive-ui-nuxt", "nuxt-icon", "@formkit/nuxt"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
