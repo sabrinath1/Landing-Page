@@ -1,9 +1,11 @@
 <template>
-  <div class="flex flex-col lg:flex-row justify-center my-10 w-11/12 xl:w-9/12">
-    <div class="h-auto w-96">
+  <div
+    class="flex flex-col lg:flex-row mt-10 md:my-10 w-full xl:w-9/12 items-center xl:ml-64"
+  >
+    <div class="h-auto w-1/2 flex">
       <MoleculesInfoContact />
     </div>
-    <div class="w-1/2 h-auto">
+    <div class="w-1/2 h-2/3 flex justify-center lg:justify-start">
       <MoleculesFormContact />
     </div>
   </div>

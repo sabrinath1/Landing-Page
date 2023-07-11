@@ -35,7 +35,7 @@ const social = useSocialRedirect();
       </p>
       <div class="flex justify-center sm:justify-center items-center">
         <button
-          class="bg-primary text-secondary hover:bg-secondary hover:text-primary w-32 h-10 rounded-lg"
+          class="bg-primary text-secondary hover:bg-secondary hover:text-primary w-32 h-10 rounded-lg mt-10"
           @click="() => social.redirect('whatsapp')"
         >
           SABER MAIS

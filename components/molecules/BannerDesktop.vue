@@ -14,11 +14,13 @@ const social = useSocialRedirect();
     >
       <div class="flex-col pt-10">
         <h1
-          class="mb-5 text-6xl font-bold pt-24 lg:pt-20 text-star items-center"
+          class="mb-5 text-6xl font-bold pt-24 lg:pt-20 text-star items-center text-white"
         >
           Advocacia e
         </h1>
-        <h3 class="mb-5 text-6xl font-bold text-star">Assessoria Jurídica</h3>
+        <h3 class="mb-5 text-6xl font-bold text-star text-white">
+          Assessoria Jurídica
+        </h3>
       </div>
 
       <div class="sm:py-10">
