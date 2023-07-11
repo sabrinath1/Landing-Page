@@ -58,7 +58,7 @@ const menuOptions = ref<MenuOption[]>([
     key: "contact",
   },
 ]);
-const social = useSocialRedirect();
+
 </script>
 
 <template>
