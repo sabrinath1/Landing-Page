@@ -11,7 +11,7 @@
       <OrganismsFooter />
     </div>
     <div class="drawer-side">
-      <label for="my-drawer-3" class="drawer-overlay"></label>
+      <label for="my-drawer-3  " class="drawer-overlay"></label>
       <MoleculesMenuMobile />
     </div>
   </div>

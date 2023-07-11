@@ -1,17 +1,20 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="w-full navbar bg-primary justify-around fixed h-24 mr-14"
+    class="w-full navbar bg-primary justify-around fixed h-24 mr-14 z-0 lg:z-50"
     id="header-top"
   >
     <div class="flex-none lg:hidden">
-      <label for="my-drawer-3" class="btn btn-circle swap swap-rotate">
+      <label
+        for="my-drawer-3"
+        class="btn btn-circle swap swap-rotate bg-primary text-white border-white hover:bg-primary"
+      >
         <!-- hamburger icon -->
         <svg
           class="fill-current"
           xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
+          width="37"
+          height="37"
           viewBox="0 0 512 512"
         >
           <path

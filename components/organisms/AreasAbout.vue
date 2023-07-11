@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10">
+  <div class="mt-10" id="contact">
     <div class="flex justify-center">
       <MoleculesAreas />
     </div>

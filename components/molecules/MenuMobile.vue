@@ -1,13 +1,14 @@
-<script setup lang="ts">
-const social = useSocialRedirect();
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div
-    class="menu p-4 w-80 bg-secondary/60 backdrop-blur-sm text-base-content z-[100]"
+    class="menu p-4 w-80 bg-secondary/60 backdrop-blur-sm text-base-content z-50"
   >
     <div class="flex justify-end">
-      <label for="my-drawer-3" class="btn btn-circle">
+      <label
+        for="my-drawer-3"
+        class="btn btn-circle bg-white text-primary hover:bg-white"
+      >
         <svg
           class="fill-current"
           xmlns="http://www.w3.org/2000/svg"

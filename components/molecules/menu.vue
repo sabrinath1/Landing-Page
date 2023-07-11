@@ -1,64 +1,29 @@
 <script setup lang="ts">
 import type { MenuOption } from "naive-ui";
-import { RouterLink } from "vue-router";
 
 const activeKey = ref(null);
 const menuOptions = ref<MenuOption[]>([
   {
-    label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            name: "",
-          },
-        },
-        { default: () => "Home" }
-      ),
+    label: "Home",
     key: "home",
   },
   {
-    label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            name: "",
-          },
-        },
-        { default: () => "Sobre" }
-      ),
+    label: "Sobre",
     key: "about",
   },
   {
-    label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            name: "",
-          },
-        },
-        { default: () => "Serviços" }
-      ),
-    key: "services",
+    label: "Áreas",
+    key: "areas",
   },
-
   {
-    label: () =>
-      h(
-        RouterLink,
-        {
-          to: {
-            name: "",
-          },
-        },
-        { default: () => "Contato" }
-      ),
+    label: "Contato",
     key: "contact",
   },
 ]);
-
+const route = useRouter();
+function handleSelect(event: any) {
+  route.push("#" + event);
+}
 </script>
 
 <template>
@@ -69,6 +34,7 @@ const menuOptions = ref<MenuOption[]>([
       mode="vertical"
       :options="menuOptions"
       :inverted="true"
+      :on-update:value="handleSelect"
     />
   </div>
 </template>
