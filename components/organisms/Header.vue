@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="w-full navbar bg-primary justify-around position: fixed h-24 z-50 mr-14"
+    class="w-full navbar bg-primary justify-around fixed h-24 mr-14"
     id="header-top"
   >
     <div class="flex-none lg:hidden">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="flex-none hidden lg:block justify-center items-center">
-      <MoleculesMenu></MoleculesMenu>
+      <MoleculesMenuDesktop></MoleculesMenuDesktop>
     </div>
 
     <div class="flex items-end space-x-4">

@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="flex flex-col py-10 justify-items-center h-full w-full md:w-96">
+  <div class="flex flex-col py-10 justify-items-center h-full w-full lg:w-96">
     <div class="flex w-full">
       <h3 class="text-primary text-3xl my-4 font-bold">Fale Conosco</h3>
     </div>

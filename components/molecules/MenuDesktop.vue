@@ -62,11 +62,11 @@ const social = useSocialRedirect();
 </script>
 
 <template>
-  <div class="flex-col justify-center items-center">
+  <div class="flex-col lg:flex hidden lg:block justify-center items-center">
     <n-menu
       class="!font-semibold"
       v-model:value="activeKey"
-      mode="vertical"
+      mode="horizontal"
       :options="menuOptions"
       :inverted="true"
     />
