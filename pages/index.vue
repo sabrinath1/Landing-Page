@@ -9,4 +9,5 @@ definePageMeta({
   <MoleculesAboutOffice id="about" />
   <OrganismsAreasAbout id="areas" />
   <OrganismsContact id="contact" />
+  <AtomsBackTop />
 </template>

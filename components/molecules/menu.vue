@@ -27,11 +27,21 @@ function handleSelect(event: any) {
 </script>
 
 <template>
-  <div class="flex-col justify-center items-center">
+  <div class="flex-col justify-center items-center block lg:hidden">
     <n-menu
       class="!font-semibold"
       v-model:value="activeKey"
       mode="vertical"
+      :options="menuOptions"
+      :inverted="true"
+      :on-update:value="handleSelect"
+    />
+  </div>
+  <div class="flex-col justify-center items-center hidden lg:block">
+    <n-menu
+      class="!font-semibold"
+      v-model:value="activeKey"
+      mode="horizontal"
       :options="menuOptions"
       :inverted="true"
       :on-update:value="handleSelect"

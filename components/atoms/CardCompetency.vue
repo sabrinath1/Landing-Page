@@ -6,7 +6,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="card w-52 lg:h-44 bg-primary m-5 sm:m-10 relative pt-10 lg:pt-4">
+  <div class="card static w-52 lg:h-44 bg-primary m-5 sm:m-10 pt-10 lg:pt-4">
     <div class="flex w-full justify-center">
       <div
         class="flex justify-center items-center bg-secondary rounded-full w-24 h-24 -m-10"

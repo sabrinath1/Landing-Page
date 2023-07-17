@@ -9,7 +9,7 @@ const props = defineProps<{
 
 <template>
   <div
-    class="card xl:w-80 w-56 h-72 px-2 m-3 lg:m-5 xl:m-10"
+    class="card xl:w-80 w-56 h-72 px-2 m-3 lg:m-5 xl:m-10 z-0"
     :class="{
       'bg-primary': props.color === 'brown',
 
