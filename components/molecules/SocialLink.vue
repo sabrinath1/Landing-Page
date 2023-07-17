@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col pt-6justify-items-center">
+  <div class="flex flex-col pt-6 justify-items-center">
     <div class="flex w-full">
       <h3 class="text-primary text-3xl my-4 font-bold">
         Siga nossas Redes Sociais
