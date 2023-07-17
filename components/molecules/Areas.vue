@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-center w-full xl:w-full bg-gradient-to-t from-secondary to-primary pb-10"
+    class="flex flex-col justify-center w-full xl:w-full bg-gradient-to-t from-orange-400 to-orange-900 pb-10"
   >
     <h1
       class="mb-10 lg:mb-5 text-4xl font-bold pt-10 lg:pt-0 text-center items-center text-secondary lg:mt-10"
