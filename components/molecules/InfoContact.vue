@@ -12,5 +12,6 @@
       img="img/localizacao.png"
       content="Rua Afonso Vergueiro, 1589 - Centro / Sorocaba"
     />
+    <MoleculesSocialLink />
   </div>
 </template>

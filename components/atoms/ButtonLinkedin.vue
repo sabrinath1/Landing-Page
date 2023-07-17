@@ -5,7 +5,7 @@ const social = useSocialRedirect();
   <n-button text style="font-size: 30px" @click="social.redirect('linkedin')">
     <Icon
       name="mdi:linkedin"
-      class="text-primary hover:text-secondary transition-all"
+      class="text-secondary hover:text-primarytransition-all"
     />
   </n-button>
 </template>

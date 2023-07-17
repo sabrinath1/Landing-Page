@@ -5,18 +5,15 @@ const myList = ref([
     items: [
       {
         label: "Quem Somos",
-        href: "",
-        icon: "",
+        key: "#about",
       },
       {
         label: "Áreas de Atuação",
-        href: "",
-        icon: "",
+        key: "#areas",
       },
       {
         label: "Fale Conosco",
-        href: "",
-        icon: "",
+        key: "#contact",
       },
     ],
   },
@@ -26,18 +23,12 @@ const myList = ref([
     items: [
       {
         label: "(15)99999-9999",
-        href: "",
-        icon: "",
       },
       {
         label: "sabrina@advocacia.com.br",
-        href: "",
-        icon: "",
       },
       {
         label: "Av. Campolim, 1749 - Campolim, Sorocaba - SP",
-        href: "",
-        icon: "",
       },
     ],
   },
@@ -46,13 +37,9 @@ const myList = ref([
     items: [
       {
         label: "Segunda á Sexta: ",
-        href: "",
-        icon: "",
       },
       {
         label: "09:00 ás 18:00 horas",
-        href: "",
-        icon: "",
       },
     ],
   },
@@ -89,7 +76,7 @@ const myList = ref([
                 >
                   <div class="flex">
                     <NuxtLink
-                      :to="subItem.href"
+                      :to="subItem.key"
                       class="text-sm font-normal text-white hover:text-secondary flex-row"
                     >
                       {{ subItem.label }}

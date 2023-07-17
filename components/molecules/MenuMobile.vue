@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="menu p-4 w-80 bg-secondary/60 backdrop-blur-sm text-base-content z-50"
+    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content z-50"
   >
     <div class="flex justify-end">
       <label

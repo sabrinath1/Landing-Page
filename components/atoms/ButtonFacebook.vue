@@ -5,7 +5,7 @@ const social = useSocialRedirect();
   <n-button text style="font-size: 30px" @click="social.redirect('facebook')">
     <Icon
       name="mdi:facebook"
-      class="text-primary hover:text-secondary transition-all"
+      class="text-secondary hover:text-primary transition-all"
     />
   </n-button>
 </template>
