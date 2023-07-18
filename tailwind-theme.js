@@ -14,7 +14,7 @@ export default {
     message: 'text-red-500 mb-1 text-xs',
     messages: 'list-none p-0 mt-1 mb-0',
     outer: 'mb-4 formkit-disabled:opacity-50',
-    prefixIcon: 'w-10 flex self-stretch grow-0 shrink-0 rounded-tl rounded-bl border-r border-gray-400 bg-white bg-gradient-to-b from-transparent to-gray-200 [&>svg]:w-full [&>svg]:max-w-[1em] [&>svg]:max-h-[1em] [&>svg]:m-auto',
+    prefixIcon: 'w-10 flex self-stretch grow-0 shrink-0 rounded-tl rounded-bl   bg-white bg-gradient-to-b from-transparent to-gray-200 [&>svg]:w-full [&>svg]:max-w-[1em] [&>svg]:max-h-[1em] [&>svg]:m-auto',
     suffixIcon: 'w-7 pr-3 p-3 flex self-stretch grow-0 shrink-0 [&>svg]:w-full [&>svg]:max-w-[1em] [&>svg]:max-h-[1em] [&>svg]:m-auto'
   },
 
@@ -57,7 +57,7 @@ export default {
   },
   'family:date': {
     inner: 'flex items-center max-w-md ring-1 ring-gray-400 focus-within:ring-blue-500 focus-within:ring-2 [&>label:first-child]:focus-within:text-blue-500 rounded mb-1',
-    input: 'w-full px-3 py-2 border-none text-gray-700 placeholder-gray-400',
+    input: 'w-full px-3 py-2 border-none text-white-700 placeholder-gray-400',
   },
 
   // Specific styles apply only to a given input type

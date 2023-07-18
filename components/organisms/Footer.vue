@@ -52,7 +52,7 @@ const myList = ref([
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="flex flex-col justify-center items-center my-3">
           <img
-            src="img/logotipo-vertical.png"
+            src="/img/logotipo-vertical.png"
             alt="Logotipo VerticaL Sabrina Campos"
           />
         </div>
